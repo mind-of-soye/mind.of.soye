@@ -8,7 +8,6 @@ function App() {
     <>
       <Taskbar />
       <Main />
-      <Codeblock />
     </>
   );
 }

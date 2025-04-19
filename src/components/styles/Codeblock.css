@@ -1,0 +1,24 @@
+.code-text {
+  font-family: consolas;
+  font-size: 20px;
+}
+
+.code-container {
+  margin-top: 100px;
+  background-color: hsla(0, 0%, 59%, 14%);
+  border-radius: 4px;
+  height: 52px;
+  width: 430px;
+
+  display: flex;
+  align-items: center;
+}
+
+.code-container::before {
+  content: "";
+  height: 46px;
+  width: 10px;
+  background-color: #0095ff;
+  border-radius: 2.8px;
+  margin: 0px 10px 0px 4px;
+}
