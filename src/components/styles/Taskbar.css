@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+hr {
+  border-color: #626161;
+  margin: auto;
+  width: 98%;
+}
+
+.logo {
+  font-size: 38px;
+  font-weight: 700;
+  padding-left: 1%;
+}
