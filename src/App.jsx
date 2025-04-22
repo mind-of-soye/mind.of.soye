@@ -1,13 +1,16 @@
-import Codeblock from "./components/Codeblock";
-import HeadingWithPageTitle from "./components/HeadingWithPageTitle";
 import Main from "./components/Main";
 import Taskbar from "./components/Taskbar";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <Taskbar />
-      <Main />
+      <div>
+        <Taskbar />
+        <Main />
+      </div>
+
+      <NavBar />
     </>
   );
 }

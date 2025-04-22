@@ -1,0 +1,37 @@
+navbar {
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.section-link {
+  border: 2px solid transparent;
+  height: 45px;
+  width: 118px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+  transition: border 0.25s ease, border-radius 0.25s ease;
+}
+
+.section-link::after {
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: yellow;
+  border-radius: 100%;
+  
+  position: relative;
+  left: 45%;
+
+  display: none;
+}
+.section-link:hover::after {
+  display: block;
+}
+
+.section-link:hover {
+  border: 2px solid hsla(0, 0%, 75%, 56%);
+  border-radius: 4px;
+}
