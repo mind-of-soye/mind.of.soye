@@ -7,9 +7,8 @@ const Taskbar = () => {
         <a href="../App.jsx" className="logo">
           M.O.S
         </a>
+        <hr />
       </div>
-
-      <hr />
     </>
   );
 };

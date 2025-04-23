@@ -4,7 +4,7 @@ a {
 }
 
 hr {
-  border-color: #626161;
+  border-color: #6261616f;
   margin: auto;
   width: 98%;
 }
@@ -13,4 +13,12 @@ hr {
   font-size: 1.8rem;
   font-weight: 700;
   padding-left: 1%;
+}
+
+.taskbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1e1e1e;
 }

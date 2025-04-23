@@ -16,3 +16,9 @@
   font-weight: 300;
   font-size: 1.4rem;
 }
+
+@media (max-height: 650px) {
+  .quote-block {
+    display: none;
+  }
+}
