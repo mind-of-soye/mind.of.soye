@@ -1,14 +1,14 @@
 .code-text {
-  font-family: consolas;
-  font-size: 20px;
+  font-family: monospace;
+  font-size: 1.2rem;
 }
 
 .code-container {
-  margin-top: 100px;
+  margin-top: 4rem;
   background-color: hsla(0, 0%, 59%, 14%);
-  border-radius: 4px;
-  height: 46px;
-  width: 430px;
+  border-radius: 0.25rem;
+  height: 2.9rem;
+  width: 27rem;
 
   display: flex;
   align-items: center;
@@ -16,11 +16,11 @@
 
 .code-container::before {
   content: "";
-  height: 40px;
-  width: 10px;
+  height: 2.5rem;
+  width: 0.55rem;
   background-color: #0095ff;
-  border-radius: 2.8px;
-  margin: 0px 10px 0px 4px;
+  border-radius: 0.15rem;
+  margin: 0 0.6rem 0 0.25rem;
 }
 
 .code-highlight {

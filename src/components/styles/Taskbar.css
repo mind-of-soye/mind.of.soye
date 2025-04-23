@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: inherit;
 }
 
 hr {
@@ -10,7 +10,7 @@ hr {
 }
 
 .logo {
-  font-size: 38px;
+  font-size: 1.8rem;
   font-weight: 700;
   padding-left: 1%;
 }
